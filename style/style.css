@@ -1,0 +1,87 @@
+html, body {
+  color: #333;
+  background: #fef1e5; }
+
+h1 {
+  text-align: center;
+  margin: 60px 0; }
+  h1 span {
+    font-size: 40px;
+    vertical-align: middle; }
+
+.order-overview, .rate-overview {
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #F2DFCE;
+  margin-bottom: 15px;
+  position: relative; }
+  .order-overview:last-child, .rate-overview:last-child {
+    margin: 0; }
+
+.order-overview-title, .rate-overview-title {
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+.order-overview-delete {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: orangered;
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: none; }
+  .order-overview-delete:hover {
+    text-decoration: underline; }
+
+.order-overview-desc span, .rate-overview-desc span {
+  min-width: 110px;
+  display: inline-block; }
+
+.list-container {
+  height: calc(100vh - 310px);
+  min-height: 450px;
+  overflow: auto;
+  margin-bottom: 60px; }
+
+.order-form {
+  padding-bottom: 120px; }
+  .order-form label {
+    width: 110px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: bold; }
+  .order-form select {
+    height: 30px; }
+  .order-form select, .order-form input {
+    width: calc(100% - 110px);
+    padding: 5px;
+    background-color: #F2DFCE;
+    border: none;
+    border-radius: 3px; }
+  .order-form button {
+    padding: 10px 25px;
+    margin-top: 10px;
+    background-color: #272a34;
+    color: white;
+    border-radius: 3px;
+    float: right;
+    border: none; }
+    .order-form button:hover {
+      text-decoration: underline; }
+
+@media (max-width: 1199px) {
+  .order-form-wrapper {
+    width: 50%;
+    float: right; } }
+@media (max-width: 768px) {
+  .list-container {
+    height: auto;
+    min-height: 0;
+    overflow: auto; }
+
+  .order-form-wrapper {
+    width: 100%;
+    float: none; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,5 @@
+export const GETRATES = 'GETRATES';
+export const GETORDERS = 'GETORDERS';
+export const DELETEORDER = 'DELETEORDER';
+export const PLACEORDER = 'PLACEORDER';
+export const GETSUPPORTED = 'GETSUPPORTED';
