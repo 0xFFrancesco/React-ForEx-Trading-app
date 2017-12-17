@@ -5,6 +5,8 @@
 #### Description:
  A React with Redux exercise on creating a forex trading web application.  [try it live](http://francescorizzi.info/experiments/react-forex-trading-app/)
 
+If features a real-time updated exchange price overview and a system to place and cancel orders through faked APIs.
+
 #### Tech stuff 👾:
 - React ⚛️
 - JSX
